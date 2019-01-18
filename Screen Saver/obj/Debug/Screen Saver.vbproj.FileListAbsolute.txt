@@ -1,0 +1,12 @@
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\bin\Debug\Screen Saver.exe.config
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\bin\Debug\Screen Saver.exe
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\bin\Debug\Screen Saver.pdb
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\bin\Debug\Screen Saver.xml
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\obj\Debug\Screen Saver.vbprojAssemblyReference.cache
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\obj\Debug\Screen_Saver.Form1.resources
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\obj\Debug\Screen_Saver.Resources.resources
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\obj\Debug\Screen Saver.vbproj.GenerateResource.cache
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\obj\Debug\Screen Saver.vbproj.CoreCompileInputs.cache
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\obj\Debug\Screen Saver.exe
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\obj\Debug\Screen Saver.xml
+C:\Users\zcj\Desktop\screensaver-master\Screen Saver\obj\Debug\Screen Saver.pdb

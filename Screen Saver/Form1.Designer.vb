@@ -22,43 +22,41 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.picBox1 = New System.Windows.Forms.PictureBox()
+        Me.tmr1 = New System.Windows.Forms.Timer(Me.components)
+        CType(Me.picBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'PictureBox1
+        'picBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(89, 132)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(101, 91)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.picBox1.Image = CType(resources.GetObject("picBox1.Image"), System.Drawing.Image)
+        Me.picBox1.Location = New System.Drawing.Point(182, 148)
+        Me.picBox1.Name = "picBox1"
+        Me.picBox1.Size = New System.Drawing.Size(121, 92)
+        Me.picBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBox1.TabIndex = 0
+        Me.picBox1.TabStop = False
         '
-        'PictureBox2
+        'tmr1
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(218, 132)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(101, 91)
-        Me.PictureBox2.TabIndex = 1
-        Me.PictureBox2.TabStop = False
+        Me.tmr1.Enabled = True
+        Me.tmr1.Interval = 500
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(493, 390)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.picBox1)
         Me.Name = "Form1"
         Me.Text = "Screen Saver"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents picBox1 As PictureBox
+    Friend WithEvents tmr1 As Timer
 End Class
